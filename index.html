@@ -7,7 +7,17 @@
     <title>Widget Integration</title>
 
     <link rel="stylesheet" href="style.css">
-
+    <!-- Start Smeetz Embed Code -->
+    <script>
+        !function(e, t, n, i, p, r, s) {
+          e[n] || ((p = e[n] = function() {
+          p.p ? p.p.apply(p, arguments) : p.q.push(arguments);
+          }).q = [], p.t = 1 * new Date(), p.g = "16441", (r = t.createElement("script")).async = 1,
+          r.src = "https://dev.tracker.smeetz.com/smeetz-main-widget.js", (s = t.getElementsByTagName("script")[0]).parentNode.insertBefore(r, s));
+        }(window, document, "_smtz");
+        </script>
+    
+    <!-- End Smeetz Embed Code -->
 </head>
 <body>
     <header>
@@ -30,7 +40,30 @@
             <p class="title-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos consequuntur voluptate dolorum totam provident ducimus cupiditate dolore doloribus repellat. Saepe ad fugit similique quis quam. Odio suscipit incidunt distinctio.
             </p>
-            <a href="#" class="btn2">Get your Ticket</a>
+            <!-- <a href="#" class="btn2">Get your Ticket</a> -->
+           <!-- Start Smeetz Embed Code -->
+    
+        <a data-smtz-gid="16441" data-smtz-wid="250"
+          data-smtz-cart="1"
+          class="" target="_blank" rel="noopener noreferrer"
+          onclick="event.preventDefault(); _smtz('openwidget', 1 * new Date(), {
+            productId: '37582',
+            lightbox: false,
+            listView: false,
+            gId: '16441',
+            wId: '250',
+            codes: '95B837SZ',cats: '44523',
+            
+            lang: 'en',
+            mem: '1',
+            
+            cart: '1',
+            linkText: 'en: ,,, fr: ,,, de: ,,, it: ',
+            linkUrl: 'en: ,,, fr: ,,, de: ,,, it: ',
+          });"
+          style="color: #ffffff;background: #151515;border: 1px solid #333333;padding: 12px 20px;border-radius: 4px;height: 44px;line-height: 70px;cursor: pointer; "
+        >Get your ticket</a>
+        <!-- End Smeetz Embed Code -->
         </div>
         <div class="imgBx">
             <img src="images/two.jpg" alt="" class="fitBg">
@@ -49,7 +82,7 @@
             <a href="#" class="card-title">Galleries</a>
             <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
             <a href="#" class="btnBook">Book Now</a>
-
+         
         </div>
         <!-- card2       -->
          <div class="card-box ">
