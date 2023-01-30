@@ -205,7 +205,10 @@ header.shadow .logo{
     margin-top: 2rem !important;
     padding: 15px !important;
 }
-
+#space{
+    margin-top: 2rem !important;
+    padding: 15px !important;
+}
 
 .card{
     display: grid;

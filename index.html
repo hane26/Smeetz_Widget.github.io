@@ -49,11 +49,11 @@
           onclick="event.preventDefault(); _smtz('openwidget', 1 * new Date(), {
             productId: '37582',
             lightbox: false,
-            listView: false,
+            listView: true,
             gId: '16441',
             wId: '250',
             codes: '95B837SZ',
-            cats: '44523,44524',
+            cats: '44523,44524,44509',
             
             lang: 'en',
             mem: '1',
@@ -71,42 +71,95 @@
         </div>
     </section>
 
-    <div id="ticketTitle">
+    <!-- <div id="ticketTitle">
         <h2>Visite the Museum </h2>
-        <br>
-    </div>
+    </div> -->
+
+    <!-- Start Smeetz Embed Code -->
+    <div class="smtz-pbooking"
+    data-group-id="16441"
+    data-smtz-gid="16441"
+    data-smtz-wid="250"
     
-    <div class="card container" id="tickets">
-        <!-- card1       -->
-        <div class="card-box ">
-            <img src="images/four.jpg" alt="" class="card-img">
-            <a href="#" class="card-title">Galleries</a>
-            <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
-            <a href="#" class="btnBook">Book Now</a>
-         
-        </div>
-        <!-- card2       -->
-         <div class="card-box ">
-            <img src="images/three.jpg" alt="" class="card-img">
-            <a href="#" class="card-title">Object trails</a>
-            <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
-               
-                <a href="#" class="btnBook">Book Now</a>
-        </div>
-        <!-- card3 -->
-        <div class="card-box ">
-            <img src="images/one.jpg" alt="" class="card-img">
-            <a href="#" class="card-title">Become a member</a>
-            <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
-            <a href="#" class="btnBook">Book Now</a>
-
-        </div>
-     
-      
-     
-        </div>
+    
+    data-dis="m"
+    data-link-text="en: ,,, fr: ,,, de: ,,, it: "
+    data-link-url="en: ,,, fr: ,,, de: ,,, it: "
+    >
     </div>
 
+    
+
+
+    <div id="space"></div>
+
+
+<div class="smtz-gbooking"
+  data-smtz-gid="16441"
+  data-product-id="37582"
+  data-smtz-wid="250"
+  data-cats="44509"
+  
+  data-link-text="en: ,,, fr: ,,, de: ,,, it: "
+  data-link-url="en: ,,, fr: ,,, de: ,,, it: "
+  >
+  </div>
+<!-- End Smeetz Embed Code -->
+
+
+<div id="space"></div>
+
+
+<div class="card container" id="tickets">
+    <!-- card1       -->
+    <div class="card-box ">
+        <img src="images/four.jpg" alt="" class="card-img">
+        <a href="#" class="card-title">Galleries</a>
+        <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+        <!-- <a href="#" class="btnBook">Book Now</a> -->
+
+    <a data-smtz-gid="16441" data-smtz-wid="250"
+      data-smtz-cart="1"
+      class="btnBook" target="_blank" rel="noopener noreferrer"
+      onclick="event.preventDefault(); _smtz('openwidget', 1 * new Date(), {
+        productId: '37582',
+        lightbox: false,
+        listView: true,
+        gId: '16441',
+        wId: '250',
+        
+        
+        cart: '1',
+        linkText: 'en: ,,, fr: ,,, de: ,,, it: ',
+        linkUrl: 'en: ,,, fr: ,,, de: ,,, it: ',
+      });"
+      
+    >Book button</a>
+    <!-- End Smeetz Embed Code -->
+    </div>
+    <!-- card2       -->
+     <div class="card-box ">
+        <img src="images/three.jpg" alt="" class="card-img">
+        <a href="#" class="card-title">Object trails</a>
+        <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+           
+            <a href="#" class="btnBook">Book Now</a>
+    </div>
+    <!-- card3 -->
+    <div class="card-box ">
+        <img src="images/one.jpg" alt="" class="card-img">
+        <a href="#" class="card-title">Become a member</a>
+        <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+        <a href="#" class="btnBook">Book Now</a>
+
+    </div>
+
+
+    
+    
+    
+</div>
+</div>
     <footer>
         <div class="footer-container">
 
