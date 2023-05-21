@@ -1,172 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Widget Integration</title>
 
-    <link rel="stylesheet" href="style.css">
-    <!-- Start Smeetz Embed Code -->
-    <script>
-        !function(e, t, n, i, p, r, s) {
-          e[n] || ((p = e[n] = function() {
-          p.p ? p.p.apply(p, arguments) : p.q.push(arguments);
-          }).q = [], p.t = 1 * new Date(), p.g = "16441", (r = t.createElement("script")).async = 1,
-          r.src = "https://dev.tracker.smeetz.com/smeetz-main-widget.js", (s = t.getElementsByTagName("script")[0]).parentNode.insertBefore(r, s));
-        }(window, document, "_smtz");
-        </script>
-    
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Widget Integration</title>
+
+  <link rel="stylesheet" href="style.css">
+<!-- Start Smeetz Embed Code -->
+<script>
+  !function(e, t, n, i, p, r, s) {
+    e[n] || ((p = e[n] = function() {
+    p.p ? p.p.apply(p, arguments) : p.q.push(arguments);
+    }).q = [], p.t = 1 * new Date(), p.g = "16441", (r = t.createElement("script")).async = 1,
+    r.src = "https://dev.tracker.smeetz.com/smeetz-main-widget.js", (s = t.getElementsByTagName("script")[0]).parentNode.insertBefore(r, s));
+  }(window, document, "_smtz");
+  </script>
+
     <!-- End Smeetz Embed Code -->
 </head>
+
 <body>
-    <header>
-        <div class="nav container">
-            <a href="#" class="logo"> <span>The Museum</span></a>
-            <a href="#tickets" class="ticket">Tickets</a>
-        </div>
-    </header>
+  <header>
+    <div class="nav container">
+      <a href="#" class="logo"> <span>The Museum</span></a>
+      <a href="#tickets" class="ticket">Tickets</a>
+    </div>
+  </header>
 
-    <section class="home" id="home">
-        <div class="home-text container">
-            <h2 class="home-title">Welcome to the Museum</h2>
-            <span class="home-subtitle">Experience cultures across the globe, from the dawn of human history to the present. </span>
-        </div>
-    </section>
+  <section class="home" id="home">
+    <div class="home-text container">
+      <h2 class="home-title">Welcome to the Museum</h2>
+      <span class="home-subtitle">Experience cultures across the globe, from the dawn of human history to the present.
+      </span>
+    </div>
+  </section>
 
-    <section class="about container" id="about">
-        <div class="contentBx">
-            <h2 class="titleText">Discover two million years of human history and culture</h2>
-            <p class="title-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos consequuntur voluptate dolorum totam provident ducimus cupiditate dolore doloribus repellat. Saepe ad fugit similique quis quam. Odio suscipit incidunt distinctio.
-            </p>
-            <!-- <a href="#" class="btn2">Get your Ticket</a> -->
-           <!-- Start Smeetz Embed Code -->
-    
-        <a data-smtz-gid="16441" data-smtz-wid="250"
-          data-smtz-cart="1"
-          class="" target="_blank" rel="noopener noreferrer"
-          onclick="event.preventDefault(); _smtz('openwidget', 1 * new Date(), {
-            productId: '37582',
-            lightbox: false,
-            listView: true,
-            gId: '16441',
-            wId: '250',
-            codes: '95B837SZ',
-            cats: '44523,44524,44509',
-            
-            lang: 'en',
-            mem: '1',
-            
-            cart: '1',
-            linkText: 'en: ,,, fr: ,,, de: ,,, it: ',
-            linkUrl: 'en: ,,, fr: ,,, de: ,,, it: ',
-          });"
-          style="color: #ffffff;background: #151515;border: 1px solid #333333;padding: 12px 20px;border-radius: 4px;height: 44px;line-height: 70px;cursor: pointer; "
-        >Get your ticket</a>
-        <!-- End Smeetz Embed Code -->
-        </div>
-        <div class="imgBx">
-            <img src="images/two.jpg" alt="" class="fitBg">
-        </div>
-    </section>
+  <section class="about container" id="about">
+    <div class="contentBx">
+      <h2 class="titleText">Discover two million years of human history and culture</h2>
+      <p class="title-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos consequuntur voluptate dolorum totam
+        provident ducimus cupiditate dolore doloribus repellat. Saepe ad fugit similique quis quam. Odio suscipit
+        incidunt distinctio.
+      </p>
+ 
 
-    <!-- <div id="ticketTitle">
+
+    </div>
+    <div class="imgBx">
+      <img src="images/two.jpg" alt="" class="fitBg">
+    </div>
+  </section>
+
+  <!-- <div id="ticketTitle">
         <h2>Visite the Museum </h2>
     </div> -->
 
-    <!-- Start Smeetz Embed Code -->
-    <div class="smtz-pbooking"
-    data-group-id="16441"
-    data-smtz-gid="16441"
-    data-smtz-wid="250"
-    
-    
-    data-dis="m"
-    data-link-text="en: ,,, fr: ,,, de: ,,, it: "
-    data-link-url="en: ,,, fr: ,,, de: ,,, it: "
-    >
-    </div>
-
-    
-
-
-    <div id="space"></div>
-
-
-<div class="smtz-gbooking"
-  data-smtz-gid="16441"
-  data-product-id="37582"
-  data-smtz-wid="250"
-  data-cats="44509"
-  
-  data-link-text="en: ,,, fr: ,,, de: ,,, it: "
-  data-link-url="en: ,,, fr: ,,, de: ,,, it: "
-  >
+  <!-- Start Smeetz Embed Code -->
+  <div class="smtz-pbooking" data-group-id="16441" data-smtz-gid="16441" data-smtz-wid="250" data-dis="m"
+    data-link-text="en: ,,, fr: ,,, de: ,,, it: " data-link-url="en: ,,, fr: ,,, de: ,,, it: ">
   </div>
-<!-- End Smeetz Embed Code -->
 
 
-<div id="space"></div>
 
 
-<div class="card container" id="tickets">
+  <div id="space"></div>
+
+
+  <div class="smtz-gbooking" data-smtz-gid="16441" data-product-id="37582" data-smtz-wid="250" data-cats="44509"
+    data-link-text="en: ,,, fr: ,,, de: ,,, it: " data-link-url="en: ,,, fr: ,,, de: ,,, it: ">
+  </div>
+  <!-- End Smeetz Embed Code -->
+
+
+  <div id="space"></div>
+
+
+  <div class="card container" id="tickets">
     <!-- card1       -->
     <div class="card-box ">
-        <img src="images/four.jpg" alt="" class="card-img">
-        <a href="#" class="card-title">Galleries</a>
-        <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
-        <!-- <a href="#" class="btnBook">Book Now</a> -->
+      <img src="images/four.jpg" alt="" class="card-img">
+      <a href="#" class="card-title">Galleries</a>
+      <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique,
+        rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae
+        iste architecto. Corporis, voluptates.</p>
+      <!-- <a href="#" class="btnBook">Book Now</a> -->
 
-    <a data-smtz-gid="16441" data-smtz-wid="250"
-      data-smtz-cart="1"
-      class="btnBook" target="_blank" rel="noopener noreferrer"
+      <a data-smtz-gid="16441" data-smtz-wid="250"
+      data-smtz-cart="1" data-smtz-cart-lightbox="1" 
+      class="" target="_blank" rel="noopener noreferrer"
       onclick="event.preventDefault(); _smtz('openwidget', 1 * new Date(), {
-        productId: '37582',
-        lightbox: false,
-        listView: true,
+        productId: '37837',
+        lightbox: true,
+        listView: false,
         gId: '16441',
         wId: '250',
+        codes: 'VRY6QFPH,WHESBYQZ',cats: '45342,45343',
         
+        
+        mem: '1',
         
         cart: '1',
         linkText: 'en: ,,, fr: ,,, de: ,,, it: ',
         linkUrl: 'en: ,,, fr: ,,, de: ,,, it: ',
       });"
-      
-    >Book button</a>
+      style="color: #ffffff;background: #E6920C;border: 1px solid #E6920C;padding: 12px 20px;border-radius: 12px;font-family: Calibri, sans-serif;height: 44px;line-height: 44px;cursor: pointer;"
+    >Get your ticket</a>
     <!-- End Smeetz Embed Code -->
+
     </div>
     <!-- card2       -->
-     <div class="card-box ">
-        <img src="images/three.jpg" alt="" class="card-img">
-        <a href="#" class="card-title">Object trails</a>
-        <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
-           
-            <a href="#" class="btnBook">Book Now</a>
+    <div class="card-box ">
+      <img src="images/three.jpg" alt="" class="card-img">
+      <a href="#" class="card-title">Object trails</a>
+      <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique,
+        rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae
+        iste architecto. Corporis, voluptates.</p>
+
+      <a href="#" class="btnBook">Book Now</a>
     </div>
     <!-- card3 -->
     <div class="card-box ">
-        <img src="images/one.jpg" alt="" class="card-img">
-        <a href="#" class="card-title">Become a member</a>
-        <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
-        <a href="#" class="btnBook">Book Now</a>
+      <img src="images/one.jpg" alt="" class="card-img">
+      <a href="#" class="card-title">Become a member</a>
+      <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique,
+        rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae
+        iste architecto. Corporis, voluptates.</p>
+      <a href="#" class="btnBook">Book Now</a>
 
     </div>
 
 
-    
-    
-    
-</div>
-</div>
-    <footer>
-        <div class="footer-container">
 
-        </div>
-    </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="script.js"></script>
+  </div>
+  </div>
+  <footer>
+    <div class="footer-container">
+
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
